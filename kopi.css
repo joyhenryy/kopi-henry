@@ -90,7 +90,7 @@ body {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url("pariwat-pannium-EIyVsrBb_BQ-unsplash.jpg");
+  background-image: url("img/main-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -128,12 +128,13 @@ body {
 }
 
 .hero .content p {
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   margin-top: 1rem;
-  line-height: 1.4;
-  font-weight: 100;
+  line-height: 1.5;
+  font-weight: 200;
   text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
   mix-blend-mode: difference;
+  padding: 0 0.1rem;
 }
 
 .hero .content .cta {
@@ -145,6 +146,7 @@ body {
   background-color: var(--primary);
   border-radius: 0.5rem;
   box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+  padding-top: 1rem;
 }
 
 /* About Section */
@@ -212,7 +214,7 @@ body {
   margin: auto;
   font-weight: 100;
   line-height: 1.6;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 .menu .row {
@@ -269,8 +271,8 @@ body {
 
 .contact .row form .input-group input {
   width: 100%;
-  padding: 2rem;
-  font-size: 1.7rem;
+  padding: 1.5rem;
+  font-size: 1.3rem;
   background: none;
   color: #fff;
 }
@@ -279,7 +281,7 @@ body {
   margin-top: 3rem;
   display: inline-block;
   padding: 1rem 3rem;
-  font-size: 1.7rem;
+  font-size: 1.4rem;
   color: #fff;
   background-color: var(--primary);
   cursor: pointer;
@@ -318,7 +320,7 @@ footer .links a {
 }
 
 footer .credit {
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 footer .credit a {
